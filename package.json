@@ -12,7 +12,7 @@
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* --out-dir='dist/img'",
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin && CI= npm run build"
+    "build": "npm run clean && npm run copyfonts && npm run usemin && npm run build"
   },
   "author": "Ravi Roy",
   "license": "ISC",
